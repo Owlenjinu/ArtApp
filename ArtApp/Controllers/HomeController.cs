@@ -26,5 +26,11 @@ namespace ArtApp.Controllers
 
             return View();
         }
+        public ActionResult Paintings()
+        {
+            ViewBag.Message = "Your Paintings page.";
+
+            return View();
+        }
     }
 }

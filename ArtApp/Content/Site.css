@@ -22,3 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
+
+#Foot {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
